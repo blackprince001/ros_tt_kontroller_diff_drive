@@ -10,7 +10,7 @@ import tf.transformations as Transform
 
 class TTKontrollerDiffDrive:
     def __init__(self):
-        rospy.init_node('gazebo_ros_diff_drive', anonymous=True)
+        rospy.init_node('tt_kontroller_diff_drive', anonymous=True)
 
 
         self.command_topic = rospy.get_param("~commandTopic", "cmd_vel")
