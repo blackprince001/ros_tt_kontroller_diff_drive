@@ -3,5 +3,6 @@
         <param name='ConfigFile' value='./config.json' />
     </node>
     
+    <node pkg='ros_tt_kontroller_diff_drive' type='scripts/tt_kontroller_wheel_encoder.py' name='tt_wheel_encoder' />
     <node pkg='ros_tt_kontroller_diff_drive' type='scripts/tt_kontroller_diff_drive.py' name='tt_kontroller' />
 </launch>
